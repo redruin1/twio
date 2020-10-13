@@ -21,7 +21,7 @@ All files only include the standard libraries.
 The first argument is the path to the text file to sort. The program supports up to three more arguments which indicate the way to sort the data, but only one is required. Each argument is separate and preceeded with a `-` followed by either `a`, `d`, or `t`, representing author, date, or title respectively. The first argument is the primary classification, the second the secondary, and so on. Elements are organized in ascending order by default, but can be switched to descending order by making the appropriate letter captial. For example:
  * `twio randomdata.txt -t` sorts by title in ascending order
  * `twio randomdata.txt -T` sorts by title in descending order
- * `twio randomdata.txt -a -T` sort by author in ascending order, and if authors match sort by title in desceding order
+ * `twio randomdata.txt -a -T` sort by author in ascending order, and if authors match sort by title in descending order
 
 ### testdata_generator.c
     testdata_generator
